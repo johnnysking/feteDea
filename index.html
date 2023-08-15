@@ -40,8 +40,8 @@
   }
 
   .footer {
-    font-size: 14px;
-    color: #888;
+    font-size: 20px;
+    color: #0b0b0b;
   }
 </style>
 </head>
@@ -50,6 +50,15 @@
   <div class="header">Invitation à la fête d'Aldéa</div>
   <div class="message">26 Août au lac Carillon, Brownsburg-Chatham<br>SVP bien vouloir confirmer votre présence.</div>
   <div class="footer">De 12:00 à 16:00</div>
+  <button id="confirmationButton" onclick="handleConfirmation()">Confirmer ma présence</button>
+
+
 </div>
+<script>
+    function handleConfirmation() {
+      window.location.href = 'https://docs.google.com/spreadsheets/d/1TIliMg3H7GQh0xT5jJeNtabHuCGk0JU14HIAoWMbg1U/edit#gid=0';
+    }
+    </script>
+    
 </body>
 </html>
